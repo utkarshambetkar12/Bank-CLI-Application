@@ -1,0 +1,60 @@
+{
+  "accounts": [
+    {
+      "ACC001": {
+        "accountCode": "ACC001",
+        "name": "KELP",
+        "balance": 9000
+      },
+      "id": "1"
+    },
+    {
+      "ACC002": {
+        "accountCode": "ACC002",
+        "name": "FVTPL",
+        "balance": 8000
+      },
+      "id": "2"
+    },
+    {
+      "ACC003": {
+        "accountCode": "ACC003",
+        "name": "Utkarsh Ambetkar",
+        "balance": "120000"
+      },
+      "id": "3"
+    },
+    {
+      "ACC004": {
+        "accountCode": "ACC004",
+        "name": "John Doe",
+        "balance": 2000
+      },
+      "id": "9FTnQ89"
+    },
+    {
+      "ACC005": {
+        "accountCode": "ACC005",
+        "name": "Raj K.",
+        "balance": "100000"
+      },
+      "id": "TBXQIrH"
+    },
+    {
+      "ACC006": {
+        "accountCode": "ACC006",
+        "name": "Prachi J.",
+        "balance": "90000"
+      },
+      "id": "Lm9sy-y"
+    },
+    {
+      "ACC0012": {
+        "accountCode": "ACC0012",
+        "name": "UtkarshAmbetkar",
+        "balance": 100000
+      },
+      "id": "pPzDeoE"
+    }
+  ]
+}
