@@ -92,6 +92,18 @@ function createAccount(accountCode, name) {
 // if exists -> adds the deposit amount to the balance amount
 
 function depositAmount(accountCode, amount) {
+  if (accountCode == null)
+    return console.log(
+      chalk.redBright("Please Enter a Account Code"),
+      "CREATE EXAMPLE ->",
+      chalk.hex("#4B0082")("hellobank1 DEPOSIT ACC001 10000")
+    );
+  if (amount == null)
+    return console.log(
+      chalk.redBright("Please Enter a Name"),
+      "CREATE EXAMPLE ->",
+      chalk.hex("#4B0082")("hellobank1 DEPOSIT ACC001 10000")
+    );
   axios.get("http://localhost:3000/accounts?q=" + accountCode).then((res) => {
     if (res.data.length === 0) {
       console.log(
@@ -132,6 +144,18 @@ function depositAmount(accountCode, amount) {
 //                                                                                                                             -> if false -> amount is withdrawn successfully
 
 function withdrawAmount(accountCode, amount) {
+  if (accountCode == null)
+    return console.log(
+      chalk.redBright("Please Enter a Account Code"),
+      "CREATE EXAMPLE ->",
+      chalk.hex("#4B0082")("hellobank1 WITHDRAW ACC001 1000")
+    );
+  if (amount == null)
+    return console.log(
+      chalk.redBright("Please Enter a Name"),
+      "CREATE EXAMPLE ->",
+      chalk.hex("#4B0082")("hellobank1 WITHDRAW ACC001 1000")
+    );
   axios.get("http://localhost:3000/accounts?q=" + accountCode).then((res) => {
     if (res.data.length === 0) {
       console.log(
@@ -184,6 +208,13 @@ function withdrawAmount(accountCode, amount) {
 // if exists -> shows the balance in the account
 
 function showBalance(accountCode) {
+  if (accountCode == null)
+    return console.log(
+      chalk.redBright("Please Enter a Account Code"),
+      "CREATE EXAMPLE ->",
+      chalk.hex("#4B0082")("hellobank1 BALANCE ACC001 ")
+    );
+
   axios.get("http://localhost:3000/accounts?q=" + accountCode).then((res) => {
     if (res.data.length === 0) {
       console.log(
