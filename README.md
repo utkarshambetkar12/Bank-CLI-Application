@@ -13,7 +13,8 @@ This is a Command Line Interface (CLI) Application which performs functions of a
 - CREATE ACCOUNT 📝
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/77622315/202551478-c07f33f8-0822-4f76-aeba-86818c000190.png" height=300 />
+
+  <img src="https://user-images.githubusercontent.com/77622315/202632873-bcfac2b0-fac5-4f86-a6d8-7fffd84a07c7.png" height=300 />
 </p>
 
 - DEPOSIT AMOUNT 💵
