@@ -20,7 +20,7 @@
       "ACC003": {
         "accountCode": "ACC003",
         "name": "Utkarsh Ambetkar",
-        "balance": "120000"
+        "balance": 120000
       },
       "id": "3"
     },
@@ -36,7 +36,7 @@
       "ACC005": {
         "accountCode": "ACC005",
         "name": "Raj K.",
-        "balance": "100000"
+        "balance": 100000
       },
       "id": "TBXQIrH"
     },
@@ -44,7 +44,7 @@
       "ACC006": {
         "accountCode": "ACC006",
         "name": "Prachi J.",
-        "balance": "90000"
+        "balance": 90000
       },
       "id": "Lm9sy-y"
     },
@@ -55,6 +55,14 @@
         "balance": 100000
       },
       "id": "pPzDeoE"
+    },
+    {
+      "ACC0021": {
+        "accountCode": "ACC0021",
+        "name": "Utkarshhh",
+        "balance": 0
+      },
+      "id": "s5Lpc1r"
     }
   ]
 }

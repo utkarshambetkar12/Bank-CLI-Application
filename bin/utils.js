@@ -98,9 +98,9 @@ function depositAmount(accountCode, amount) {
       "CREATE EXAMPLE ->",
       chalk.hex("#4B0082")("hellobank1 DEPOSIT ACC001 10000")
     );
-  if (amount == null)
+  if (amount == null || isNaN(amount))
     return console.log(
-      chalk.redBright("Please Enter a Name"),
+      chalk.redBright("Please Enter a proper numeric amount"),
       "CREATE EXAMPLE ->",
       chalk.hex("#4B0082")("hellobank1 DEPOSIT ACC001 10000")
     );
@@ -150,9 +150,9 @@ function withdrawAmount(accountCode, amount) {
       "CREATE EXAMPLE ->",
       chalk.hex("#4B0082")("hellobank1 WITHDRAW ACC001 1000")
     );
-  if (amount == null)
+  else if (amount == null || isNaN(amount))
     return console.log(
-      chalk.redBright("Please Enter a Name"),
+      chalk.redBright("Please Enter a proper numeric amount"),
       "CREATE EXAMPLE ->",
       chalk.hex("#4B0082")("hellobank1 WITHDRAW ACC001 1000")
     );
