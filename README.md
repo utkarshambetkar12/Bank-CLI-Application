@@ -39,11 +39,11 @@ This is a Command Line Interface (CLI) Application which performs functions of a
 Install with npm
 
 ```sh
-Step 1: Clone this Repository
+Step 1: Clone this Repository OR Download the Zip File of this Repository
 Step 2: Open a Command Terminal and navigate to the root folder of this repository
 Step 3: npm install
 Step 4: Run this command -> json-server --watch ./data/db.json --> This turns on the backend server of the application and gives us an endpoint to find all the JSON Doucments
-Step 5: Open Another Command Terminal
+Step 5: Open Another Command Terminal and Navigate to root folder of this repository
 Step 6: Run this command -> npm install -g . --> This installs the CLI Application on the desktop globally. "Can be installed locally as -> npm install ."
 Step 7: Run this command -> hellobank1 -> From here CLI Application will guide you through the Actions.
 Step 8: We can see all the changes live in the db.json file which resides in data folder
